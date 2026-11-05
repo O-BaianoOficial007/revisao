@@ -1,8 +1,17 @@
 .home {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 #imgHome {
     width: auto;
-    height: 30px;
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
