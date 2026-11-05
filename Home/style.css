@@ -1,0 +1,8 @@
+.home {
+    display: flex;
+    flex-direction: row;
+}
+#imgHome {
+    width: auto;
+    height: 30px;
+}
