@@ -1,17 +1,45 @@
-.home {
+.nav-item {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 5px;
+    gap: 8px;
+    color: black;
+    opacity: 0.5;
+    transition: all 200ms ease-in-out;
 }
-#imgHome {
+.img-nav {
     width: auto;
     height: 40px;
+}
+
+.nav-item p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-item:hover {
+    opacity: 1;
+}
+
+.s1 {
+    background-image: url('../assets/images/neymar.jpg');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0px 3px 12px #00000085
+}
+
+.s2 {
+    height: 100vh;
 }
 
 nav {
     display: flex;
     justify-content: center;
     gap: 20px;
+    box-shadow: 0px 3px 12px #00000043;
+    padding: 10px;
 }
