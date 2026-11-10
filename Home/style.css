@@ -101,6 +101,12 @@ nav {
         opacity: 0.5;
         transition: all 200ms ease-in-out;
     }
+
+    #menu-mobile a:hover{
+        font-weight: bold;
+        opacity: 1;
+        cursor: pointer;
+    }
     
     
     #menu-mobile img{
